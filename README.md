@@ -22,6 +22,31 @@ Surround AI  is the python framework which is designed for flexible usage in Art
 Here are some components in the library that one can use to build Surround AI solutions.
 ![flowdigram](https://github.com/jaykumar61996/Surround_document/blob/master/pic.png)
 
+## Components
+
+ - Surround A group of many stages or maybe it can be one stage only,
+   helps to transform the data into more meaningful and explainable
+   data. You can set orders of stages directly on your implementation or   you may use configuration file. Configuration file allows you to
+   define more than 1 pipeline implementation and then you can switch between them effortlessly.
+ - Surround Data A sharable object between stages that holds necessary information for each stage. A stage will read some information from Surround Data then will process it and as rend result will put back new information that will be used by other stage or multiple stages.
+ 
+ - In Surround, when you extend classes, you can add as many variables as you need to help you transform input data into output data. But note that there are **four** core variables that are ready for you to utilise.
+	
+**stage_metadata:** it is information that can be used to identify a stage.
+
+**execution_time:** it is recorded time to complete a process.
+
+**errors:** it is information to identify failure of a stage.
+
+**warnings:** warnings are information when transformation is not 100% correct.
+
+ - Stage an implementation of data transformation. Here is where
+   **Surround Data** is modified to archive the result that you need. Each stage is only aimed to perform a set of related actions. In
+   stage one where you prepare data to be processed and last stage can
+   be where your populated data to be sent back to user.
+
+**Operate** is a function that you need to override when you extend stage class. It must contain data transformation implementation.
+
 
 # Why surround?
 * It is designed to support data scientist in their progress.
