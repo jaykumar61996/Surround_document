@@ -20,7 +20,7 @@ Surround AI  is the python framework which is designed for flexible usage in Art
  
  # Flow-diagram
 Here are some components in the library that one can use to build Surround AI solutions.
-https://github.com/jaykumar61996/Surround_document/blob/master/pic.png
+![flowdigram](https://github.com/jaykumar61996/Surround_document/blob/master/pic.png)
 
 
 # Why surround?
