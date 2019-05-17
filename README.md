@@ -2,6 +2,19 @@
 For better understanidng of surround
 # Surround AI
 Surround AI  is the python framework which is designed for flexible usage in Artificial Intelligence(AI). It is designed to support data scientist in their progress. Each and every scientist use different algorithm to solve different problems. There are no standard way for them to analyse altogether in a single module. To provide a standard solution surround frame work is built. Evolution of machine learning pipeline  is not possible without re-constructing the coding whereas surround package will provide a pipeline without any alterations.
+**There were problems that where addressed at Applied Artificial Intelligence Institute:**
+
+ 1. There were same changes required to refactor code again and again,  
+    which was written by data scientist to make it ready for implement. 
+    That means there was no standard script, no proper way to handle   
+    configuration and no standard pipeline architecture.
+ 2. The models which are existing are serving the model rather than
+    end-to-end solution. The model needs to me clubbed with multiple
+    models and glue code to tie these models together.
+ 3. Existing models don’t allow for the evolution of a machine learning
+    pipeline without re-engineering the solution. Ex: using a cloud API
+    for the first release before training a custom model much later.
+ 4. Code was commonly being commented out to run other branches.
 
 # Why surround?
 * It is designed to support data scientist in their progress.
