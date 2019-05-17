@@ -17,6 +17,11 @@ Surround AI  is the python framework which is designed for flexible usage in Art
     pipeline without re-engineering the solution. Ex: using a cloud API
     for the first release before training a custom model much later.
  4. Code was commonly being commented out to run other branches.
+ 
+ # Flow-diagram
+Here are some components in the library that one can use to build Surround AI solutions.
+https://github.com/jaykumar61996/Surround_document/blob/master/pic.png
+
 
 # Why surround?
 * It is designed to support data scientist in their progress.
