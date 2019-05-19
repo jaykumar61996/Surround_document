@@ -8,8 +8,7 @@ Surround AI  is the python framework which is designed for flexible usage in Art
 
  1. There were same changes required to refactor code again and again,  
     which was written by data scientist to make it ready for implement. 
-    That means there was no standard script, no proper way to handle   
-    configuration and no standard pipeline architecture.
+    That means there was no standard script, no proper way to handle configuration and no standard pipeline architecture.
  2. The models which are existing are serving the model rather than
     end-to-end solution. The model needs to me clubbed with multiple
     models and glue code to tie these models together.
